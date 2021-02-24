@@ -1,0 +1,64 @@
+
+
+<!DOCTYPE html >
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="wel.css">
+</head>
+<body align="center" style="text-align: center;"> 
+	<h2>
+	<div  class="main_heading" style="border: solid rgb(255, 238, 0);padding-bottom: 60px;">
+			<h1>Log in</h1> 
+			<hr width="200vw"> 
+			<br> 
+			<form action="user_database.php" method="post">
+			<table align="center"style="text-align: left;">
+				<tr>
+					<td>
+						<label for="username" class="uname" data-icon="u" > Your email or username </label>
+					</td>
+					<td>
+						<input id="username" name="username" required="required" type="text" placeholder="mymail@mail.com"/>
+					</td>
+				</tr>
+				<tr><td><br></td></tr>
+				<tr>
+					<td>
+						<label for="password" class="youpasswd" data-icon="p"> Your password </label>
+					</td>
+					<td>
+						<input id="password" name="password" required="required" type="password" placeholder="eg. X8df!90EO" /> 
+					</td>
+				</tr> 
+				<tr><td><br></td></tr>
+				<tr>
+					<td colspan="2" align="center" style="text-align: center;">
+						<!--<button type="button" onclick="myFunction()" id="button1">LOGIN</button>
+						<script>
+							function myFunction() {
+							  alert("Successfully logged in!!");
+							  window.location.href='./homepage.html'
+							}
+						</script> -->
+						<input type="submit" value="Submit" id="button1">
+					</td>
+				</tr>
+				<tr><td><br><br></td></tr>
+				<tr>
+					<td colspan="2" align="center" style="text-align: center;">
+						Not a member yet ?
+						<a href="signup.html">Join us</a>
+					</td>
+				</tr>
+				<tr><td><br><br></td></tr>
+		</table>
+		</form>	
+	</div>
+</h2>
+
+	
+</body>
+</html>

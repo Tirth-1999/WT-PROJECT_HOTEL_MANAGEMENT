@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="wel.css">
+</head>
+<body style="text-align: center;">
+    <h2>
+    <div class="main_heading" style="border: solid rgb(255, 238, 0);padding-bottom: 60px;">
+        <form  action="mysuperscript.php" autocomplete="on"> 
+            <h1> Sign up </h1>
+            <hr width="200vw"> 
+            <br> 
+            <table align="center" style=" text-align: left; ">
+                <tr>
+                    <td>
+                        <label for="usernamesignup" class="uname" data-icon="u">Your Fullname</label>
+                    </td>
+                    <td>
+                        <input id="usernamesignup" name="usernamesignup" required="required" type="text" placeholder="mysuperusername690" />
+                    </td>
+                </tr>
+                <tr><td><br></td></tr>
+                <tr>
+                    <td>
+                        <label for="emailsignup" class="youmail" data-icon="e" > Your email</label>
+                    </td>
+                    <td>    
+                        <input id="emailsignup" name="emailsignup" required="required" type="email" placeholder="mysupermail@mail.com"/> 
+                    </td>    
+                </tr>
+                <tr><td><br></td></tr>
+                <tr>
+                    <td>
+                        <label for="passwordsignup" class="youpasswd" data-icon="p">Your password </label>
+                    </td>
+                    <td>
+                        <input id="passwordsignup" name="passwordsignup" required="required" type="password" placeholder="eg. X8df!90EO"/>
+                    </td>
+                </tr>
+                <tr><td><br></td></tr>
+                <tr>
+                    <td>
+                        <label for="passwordsignup_confirm" class="youpasswd" data-icon="p">Please confirm your password </label>
+                    </td>
+                    <td>
+                        <input id="passwordsignup_confirm" name="passwordsignup_confirm" required="required" type="password" placeholder="eg. X8df!90EO"/>
+                    </td>
+                </tr>
+                <tr><td><br><br></td></tr>
+                <tr>
+                    <td colspan="2" align="center" style="text-align: center;">
+						<button type="button" onclick="myFunction()" id="button1">SIGN UP</button>
+						<script>
+							function myFunction() {
+							  alert("Successfully signed up!!");
+							  window.location.href='./homepage.html';
+							}
+						</script>
+                    </td>
+                </tr>
+                <tr><td><br></td></tr>
+                <tr >
+                    <td colspan="2" align="center" style="text-align: center;" >
+                        Already a member ?
+                        <a href="login.html"> Go and log in </a>
+                    </td>
+                </tr>
+            </table>
+        </form>
+</div>
+</h2>
+</body>
+</html>

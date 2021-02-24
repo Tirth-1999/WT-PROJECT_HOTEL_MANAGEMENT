@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Online Auditorium Booking
+	</title>
+	<link rel="stylesheet" href="wel.css">
+</head>
+<body>
+	<h3>
+	<div id="top" style="background-color: #141314;">
+	<table align="center" style="padding: 20px;">
+		<tr>
+			<td>
+				<a href="homepage.html"><button id="button1">HOME</button></a>
+			</td>
+			<td>
+				<a href="./bookingform.html"><button id="button1">BOOK AUDITORIUM</button></a>
+			</td>
+			<td>
+				<a href="./Lookforauditorium.html"><button id="button1">LOOK FOR AUDITORIUM</button></a>
+			</td>
+			<td>
+				<a href="About.html"><button id="button1">ABOUT US</button></a>
+			</td>
+			<td>
+				<a href="Contact.html"><button id="button1">CONTACT DETAILS</button></a>
+			</td>
+			<td>
+				<a href="welcome.html"><button id="button1">LOGOUT</button></a>
+			</td>
+
+		</tr>
+	</table>
+	</div>	
+	<br>
+	<br>
+	<div >
+	<form method="post" action="onlinebooking.com" ">
+				<table align="center" style="border: solid yellow; background-color: #808080; padding: 40px;">
+					<tr>
+						<td>
+							Name:
+						</td>
+						<td>
+							<input type="text" name="name" size="20">
+						</td>
+					</tr>	
+					<tr>
+						<td rowspan="7">
+							Event Type:
+						</td>
+					</tr>	
+					<tr>
+						<td>
+								<input type="radio" name="event" value="Marriage">Marriage
+						</td>
+					</tr>
+					<tr>	
+						<td>
+							<input type="radio" name="event" value="Birthday">Birthday
+						</td>
+					</tr>
+					<tr>	
+						<td>
+							<input type="radio" name="event" value="Birthday">Kitty party
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="radio" name="event" value="Birthday">Reception
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="radio" name="event" value="other">other
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input style="display:none" "text" name="otherAnswer" id="otherAnswer"/>
+						</td>
+					</tr>		
+			
+					<tr>
+						<td>
+							Select Auditorium:
+						</td>
+						<td>
+							<select id="my list">
+								<option value="AAA">AAA</option>
+								<option value="BBB">BBB</option>
+								<option value="CCC">CCC</option>
+								<option value="DDD">DDD</option>
+							</select><br/>
+						</td>	
+					</tr>	
+					
+					<tr>
+						<td>
+							Total No of Guests:
+						</td>
+						<td>
+							<input type=int name="Guests" size="10">
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+							Date:
+						</td>
+						<td>
+							<input type="date" name="date">
+						</td>
+					</tr>
+				
+					<tr>
+						<td>
+							Event Description:
+						</td>
+						<td>
+							<textarea rows = "5" cols = "60" name = "description">
+							</textarea>
+						</td>
+					</tr>
+
+					<tr>
+						<td rowspan="4">
+							Booking Type:
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="radio" name="booking type" value="Full Day">Full Day
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="radio" name="booking type" value="First Half">First Half
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="radio" name="booking type" value="Second Half">Second Half
+						</td>
+					</tr>
+					
+					<tr>
+						<td rowspan="3">
+							Catering:
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="radio" name="Catering" value="Any">Any
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="radio" name="Catering" value="Monoploy">Monoploy
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+							Phone no:
+						</td>
+						<td>
+							<input type="tel" name="phone no">
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							Email id:
+						</td>
+						<td>
+							<input type="Email" name="Email">
+						</td>
+					</tr>
+				</table>
+		<div align="center">
+			<input type="Reset"  id="button1" name="Reset" value="Reset">-----OR-----
+			<input type="button" id="button1" name="Submit" value="Submit">
+		</div>
+	</form>
+	</div>
+	<br>
+	<br>
+	<br>
+	<div align="right">
+		<a href="#top " ><button id="button2"> TOP </button></a>
+	</div>
+</h3>
+</body>
+</html>
